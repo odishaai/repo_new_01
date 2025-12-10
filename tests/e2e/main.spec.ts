@@ -5,18 +5,20 @@ test.describe('Navigate to ShoppingKart website, log in, purchase a Premium Lapt
   test('Execute workflow', async ({ page }) => {
     const mainPage = new MainPage(page);
     
-    // Step 1: Navigate to ShoppingKart website and log in
-    // TODO: Implement go_to_url https://shoppingkart-niwf.onrender.com/ ; click 'Login' button; enter username 'admin' in 'Username' field; enter password in 'Password' field; click 'Login' button
-    // Step 2: Find and add Premium Laptop to cart
-    // TODO: Implement search for 'Premium Laptop' in the search bar; click on the 'Premium Laptop' product; click 'Add to Cart' button
-    // Step 3: Proceed to checkout
-    // TODO: Implement click 'Proceed to Checkout' button
-    // Step 4: Enter shipping address
-    // TODO: Implement enter '111 Address FL' in the 'Shipping Address' field
-    // Step 5: Select payment method
-    // TODO: Implement select 'Credit Card' as the Payment Method
-    // Step 6: Complete the purchase
-    // TODO: Implement click 'Complete Purchase' or 'Place Order' button
+    // Step 1: Navigate to ShoppingKart website
+    // TODO: Implement go_to_url https://shoppingkart-niwf.onrender.com/
+    // Step 2: Log in to ShoppingKart account
+    // TODO: Implement Click on 'Login' button, enter username 'admin' in the username field, and click 'Submit' or 'Login' button
+    // Step 3: Find and add Premium Laptop to cart
+    // TODO: Implement Search for 'Premium Laptop' in the search bar or navigate to the laptop category. Once found, click 'Add to Cart' button for the Premium Laptop
+    // Step 4: Proceed to checkout
+    // TODO: Implement Click on 'Proceed to Checkout' button
+    // Step 5: Enter shipping address
+    // TODO: Implement In the shipping address form, enter '111 Address FL' and submit
+    // Step 6: Select payment method
+    // TODO: Implement Choose 'Credit Card' as the payment method
+    // Step 7: Complete the purchase
+    // TODO: Implement Click on 'Complete Purchase' or 'Place Order' button
     
     // Add assertions
     await expect(page).toHaveTitle(/.+/);
