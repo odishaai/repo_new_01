@@ -1,7 +1,7 @@
 {
   "name": "playwright-automation",
   "version": "1.0.0",
-  "description": "Playwright test automation for: Automate the process of purchasing a Premium Laptop from the ShoppingKart website, including login, product selection, checkout, and payment.",
+  "description": "Playwright test automation for: Navigate to ShoppingKart website, log in, purchase a Premium Laptop, and complete the checkout process with specified shipping and payment details.",
   "scripts": {
     "test": "playwright test",
     "test:headed": "playwright test --headed",
